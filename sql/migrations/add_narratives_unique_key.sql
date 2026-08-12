@@ -1,7 +1,7 @@
 -- Step 6 follow-up: enforce one current narrative per (narrative_type, reference_key)
 -- so generate_narratives.py can upsert instead of appending duplicate rows on rerun.
--- Lives in: sql/migrations/006_add_narratives_unique_key.sql
--- Apply with: mysql -u root -p ai_sales_analytics < sql/migrations/006_add_narratives_unique_key.sql
+-- Lives in: sql/migrations/add_narratives_unique_key.sql
+-- Apply with: mysql -u root -p ai_sales_analytics < sql/migrations/add_narratives_unique_key.sql
 
 -- Before adding the constraint, collapse any existing duplicates down to the
 -- most recent row per (narrative_type, reference_key) — otherwise the ALTER

@@ -1,6 +1,6 @@
 """
 Validates the data-quality flags added by
-sql/migrations/002_add_data_quality_flags.sql, and writes a summary CSV
+sql/migrations/data_quality_flags.sql, and writes a summary CSV
 into data/processed/ for use in the README's data-quality section.
 
 Lives in: python/validate_cleaning.py

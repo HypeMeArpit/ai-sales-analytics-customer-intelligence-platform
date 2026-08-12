@@ -1,6 +1,6 @@
 -- Step 5: tables to hold ML output (customer segments + transaction anomalies).
 -- Lives in: sql/migrations/create_ml_output_tables.sql
--- Apply with: mysql -u root -p ai_sales_analytics < sql/migrations/003_create_ml_output_tables.sql
+-- Apply with: mysql -u root -p ai_sales_analytics < sql/migrations/create_ml_output_tables.sql
 -- (or run the statements through your MySQL client of choice)
 
 CREATE TABLE IF NOT EXISTS customer_segments (

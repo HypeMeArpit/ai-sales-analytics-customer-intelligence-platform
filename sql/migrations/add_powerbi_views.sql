@@ -1,8 +1,8 @@
 -- Step 7 (Power BI): convenience view joining flagged anomalies back to
 -- their full transaction detail, so Power BI doesn't need to do this merge
 -- itself in Power Query.
--- Lives in: sql/migrations/005_add_powerbi_views.sql
--- Apply with: mysql -u root -p ai_sales_analytics < sql/migrations/005_add_powerbi_views.sql
+-- Lives in: sql/migrations/add_powerbi_views.sql
+-- Apply with: mysql -u root -p ai_sales_analytics < sql/migrations/add_powerbi_views.sql
 
 CREATE OR REPLACE VIEW vw_anomaly_detail AS
 SELECT

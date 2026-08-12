@@ -7,7 +7,7 @@ itself connects live to MySQL — this is the fallback/reference copy, same
 Lives in: python/export_powerbi_data.py
 Run from the python/ folder with: python export_powerbi_data.py
 
-Requires: sql/migrations/005_add_powerbi_views.sql already applied.
+Requires: sql/migrations/add_powerbi_views.sql already applied.
 
 Outputs (all under data/processed/powerbi_export/):
   - overview_daily_revenue.csv   (date-level revenue/order trend)

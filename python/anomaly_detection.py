@@ -9,7 +9,7 @@ that no fixed business rule was written to check for.
 Lives in: python/anomaly_detection.py
 Run from the python/ folder with: python anomaly_detection.py
 
-Requires: sql/migrations/003_create_ml_output_tables.sql already applied.
+Requires: sql/migrations/create_ml_output_tables.sql already applied.
 
 Outputs:
   - data/processed/transaction_anomalies_top50.csv  (most anomalous rows,

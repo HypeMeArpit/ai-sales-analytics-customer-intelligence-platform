@@ -1,6 +1,6 @@
 -- Step 6: table to hold Ollama-generated plain-English narratives.
--- Lives in: sql/migrations/004_create_narratives_table.sql
--- Apply with: mysql -u root -p ai_sales_analytics < sql/migrations/004_create_narratives_table.sql
+-- Lives in: sql/migrations/create_narratives_table.sql
+-- Apply with: mysql -u root -p ai_sales_analytics < sql/migrations/create_narratives_table.sql
 
 CREATE TABLE IF NOT EXISTS narratives (
     id              INT AUTO_INCREMENT PRIMARY KEY,

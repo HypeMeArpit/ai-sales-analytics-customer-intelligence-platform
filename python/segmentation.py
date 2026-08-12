@@ -4,7 +4,7 @@ Customer segmentation via RFM (Recency, Frequency, Monetary) + K-Means.
 Lives in: python/segmentation.py
 Run from the python/ folder with: python segmentation.py
 
-Requires: sql/migrations/003_create_ml_output_tables.sql already applied.
+Requires: sql/migrations/create_ml_output_tables.sql already applied.
 
 Outputs:
   - data/processed/rfm_features.csv         (raw RFM values per customer)
