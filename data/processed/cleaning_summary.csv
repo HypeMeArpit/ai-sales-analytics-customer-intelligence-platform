@@ -1,0 +1,8 @@
+,count,pct_of_total
+total_rows,525461.0,100.0
+missing_customer_id,107927.0,20.54
+negative_quantity,12326.0,2.35
+zero_or_negative_price,3704.0,0.7
+non_product_stock_codes,2667.0,0.51
+cancellation_invoices,10206.0,1.94
+stock_adjustments,2121.0,0.4
